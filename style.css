@@ -1,0 +1,118 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 3px 3px;
+    background-color: grey;
+    border-radius: 3px;
+    margin-right:10px;
+}
+
+.header-container p{
+    font-size: 10pt;
+    margin-left: 5px;
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: black;
+}
+
+.main-container{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:95vw;
+    margin:auto;  
+    height: calc(100vh - 160px);
+}
+
+.main-container img{
+    height: 100%;
+}
+
+.foto{
+    height: 15%;
+    width: 14%;
+    position: relative;
+}
+
+footer{
+    background-color: gray;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.info{
+    height: 25px;
+    padding: 5px;
+    background-color: grey;
+    opacity: 85%;
+    color: white;
+    position: absolute;
+    left:0%;
+    top: calc(100% - 25px)
+}
+
+.pulsante-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-right: 10px;
+}
+
+.pulsante-footer-container{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-family: sans-serif;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+footer i{
+    font-size: 20pt;
+}
+
+footer p{
+    font-size: 10pt;
+}
+
+.end-meeting{
+    background-color: lightgray;
+    color: red;
+    font-family: sans-serif;
+    font-size: 15pt;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+
+
